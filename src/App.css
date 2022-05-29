@@ -1,5 +1,19 @@
+:root {
+  --background-color-main: #FFF9C2;
+  --background-color-highlight: #FFF170;
+  --background-color-dark: #49271D;
+  --background-color-special: #FF7F11;
+
+  --text-color-dark: #0F0806;
+  --text-color-light: #FFFDEB;
+  --text-color-special: #FF7F11;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -14,12 +28,20 @@
 }
 
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: var(--background-color-highlight);
+  min-height: 4rem;
   font-size: calc(10px + 2vmin);
+}
+
+.App-main {
+  background-color: var(--background-color-main);
+  min-height: 4rem;
+  flex-grow: 2;
+}
+
+.App-footer {
+  background-color: var(--background-color-dark);
+  min-height: 4rem;
 }
 
 .App-link {
