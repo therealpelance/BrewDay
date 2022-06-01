@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.link {
+    color: var(--text-color-dark);
+}
+
+.active {
+    color: var(--text-color-special);
+  }
