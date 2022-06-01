@@ -1,9 +1,13 @@
 import React from 'react';
 import Navbar from './features/Navbar/Navbar';
+import NearMe from './pages/NearMe/NearMe';
+import Search from './pages/Search/Search';
+import Cities from './pages/Cities/Cities';
+import Planner from './pages/Planner/Planner';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -56,7 +60,12 @@ function App() {
           </span> */}
         </header>
         <main className='App-main'>
-
+          <Routes>
+            <Route path='/' element={<NearMe />} />
+            <Route path='/search' element={<Search />} />
+            <Route path='/cities' element={<Cities />} />
+            <Route path='/planner' element={<Planner />} />
+          </Routes>
         </main>
         <footer className='App-footer'>
 
