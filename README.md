@@ -1,8 +1,6 @@
 
 # BrewDay: The Bar Crawl Planner
 
----
-
 Web app to search for Bars, Brew Pubs, Breweries, and Beer Stores.
 
 More information to come.
@@ -10,7 +8,7 @@ More information to come.
 ## Technologies:
 
 ### Frameworks & Libraries:
-- Reach
+- React
 - Redux
 - Redux Toolkit
 - React Router
