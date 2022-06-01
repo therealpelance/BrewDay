@@ -42,6 +42,7 @@
 .App-footer {
   background-color: var(--background-color-dark);
   min-height: 4rem;
+  color: var(--text-color-light);
 }
 
 .App-link {

@@ -68,7 +68,9 @@ function App() {
           </Routes>
         </main>
         <footer className='App-footer'>
-
+          <div>
+            <p>Data courtesy of The Beer Mapping Project</p>
+          </div>
         </footer>
       </div>
     </Router>
