@@ -23,9 +23,7 @@ function Map(props) {
     });
 
     return (
-        <div>
-            <div ref={mapContainer} className="Map-portal"></div>
-        </div>
+        <div ref={mapContainer} className="Map-portal"></div>
     );
 }
 

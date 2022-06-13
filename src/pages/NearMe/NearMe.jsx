@@ -7,7 +7,7 @@ import './NearMe.css';
 function NearMe () {
     return (
         <div className='Page-container'>
-            <p>Near Me</p>
+            <h1>Brews Near Me</h1>
             <div className="Content-container">
                 <div className='Map-container'>
                     <Map />
