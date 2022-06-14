@@ -20,14 +20,14 @@ export const mapSlice = createSlice({
         },
         setZoom(state, action) {
             state.zoom = action.payload;
-        }
+        },
     }
 });
 
 export const {
     setLatitude,
     setLongitude,
-    setZoom
+    setZoom,
 } = mapSlice.actions;
 
 export default mapSlice.reducer;
