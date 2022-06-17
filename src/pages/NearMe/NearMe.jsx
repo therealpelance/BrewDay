@@ -1,6 +1,4 @@
 import React from 'react';
-import FilterBox from '../../features/FilterBox/FilterBox';
-import LocationList from '../../features/LocationList/LocationList';
 import Map from '../../features/Map/Map';
 import './NearMe.css';
 import {
@@ -8,6 +6,7 @@ import {
     setLongitude
 } from '../../features/Map/mapSlice';
 import { useDispatch } from 'react-redux';
+import LocationsBox from '../../features/LocationsBox/LocationsBox';
 
 function NearMe () {
     const dispatch = useDispatch();
@@ -35,12 +34,7 @@ function NearMe () {
                     <Map />
                 </div>
                 <div className="Locations-container">
-                    <div className="Filters-container">
-                        <FilterBox />
-                    </div>
-                    <div className="LocationsList-container">
-                        <LocationList />
-                    </div>
+                    <LocationsBox pageName={' Near Me'} />
                 </div>
             </div>
         </div>
