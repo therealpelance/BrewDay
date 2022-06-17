@@ -1,0 +1,15 @@
+.barMarker {
+    color: var(--marker-color-bar);
+}
+
+.breweryMarker {
+    color: var(--marker-color-brewery);
+}
+
+.brewPubMarker {
+    color: var(--marker-color-brewpub);
+}
+
+.beerStoreMarker {
+    color: var(--marker-color-beerstore);
+}

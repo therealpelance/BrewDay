@@ -11,10 +11,20 @@
   --text-color-light: #FFFDEB;
   --text-color-special: #FF7F11;
 
+  --marker-color-bar: #E71D36;
+  --marker-color-brewery: #D19C1D;
+  --marker-color-brewpub: #4C5760;
+  --marker-color-beerstore: #37FF8B;
+
   --radius-1: 0.5em;
   --radius-2: 1em;
   --radius-3: 1.5em;
   --radius-4: 2em;
+
+  --margin-1: 0.5em;
+  --margin-2: 1em;
+  --margin-3: 1.5em;
+  --margin-4: 2em;
 }
 
 .App {

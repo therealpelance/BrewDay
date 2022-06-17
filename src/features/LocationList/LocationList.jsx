@@ -5,8 +5,7 @@ import Location from '../Location/Location';
 function LocationList(props) {
     return (
         <div>
-            
-
+            <Location />
         </div>
     );
 }

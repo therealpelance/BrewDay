@@ -1,0 +1,8 @@
+.filterBox {
+    display: flex;
+    justify-content: center;
+}
+
+.filterTile {
+    margin: var(--margin-1);
+}
