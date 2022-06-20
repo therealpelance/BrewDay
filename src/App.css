@@ -4,6 +4,7 @@
   --background-color-dark: #49271D;
   --background-color-special: #FF7F11;
   --background-color-card: #FFFDEB;
+  --background-color-hover: #FFFBD6;
 
   --border-color-light: #EDB082;
 
@@ -13,8 +14,9 @@
 
   --marker-color-bar: #E71D36;
   --marker-color-brewery: #D19C1D;
-  --marker-color-brewpub: #4C5760;
+  --marker-color-brewpub: #2176FF;
   --marker-color-beerstore: #37FF8B;
+  --marker-color-inactive: #A5B0B6;
 
   --radius-1: 0.5em;
   --radius-2: 1em;

@@ -13,3 +13,7 @@
 .beerStoreMarker {
     color: var(--marker-color-beerstore);
 }
+
+.inactive {
+    color: var(--marker-color-inactive);
+}

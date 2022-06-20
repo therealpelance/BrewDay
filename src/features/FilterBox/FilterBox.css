@@ -6,3 +6,14 @@
 .filterTile {
     margin: var(--margin-1);
 }
+
+.filterButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 0.5em;
+}
+
+.filterButton:hover {
+    font-size: 0.9em;
+}
