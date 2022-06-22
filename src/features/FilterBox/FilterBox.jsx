@@ -17,7 +17,7 @@ function FilterBox(props) {
             <h4>Filter your results</h4>
             <div className='filterBox'>
                 {locationTypes.map((type, index) => (
-                    <div className='filterTile'>
+                    <div className='filterTile' key={index}>
                         <button className='filterButton'
                             type='button'
                             onClick={() => {onToggleFilter(index)}}>

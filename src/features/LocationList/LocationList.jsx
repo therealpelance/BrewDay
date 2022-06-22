@@ -3,10 +3,16 @@ import './LocationList.css';
 import Location from '../Location/Location';
 
 function LocationList(props) {
+    const { locationsResults } = props;
     return (
-        <div>
-            <Location />
-        </div>
+        <>
+            {locationsResults.map((location) => (
+                <Location 
+                    key={location.location.id}
+                    location={location}
+                />
+            ))}
+        </>
     );
 }
 
