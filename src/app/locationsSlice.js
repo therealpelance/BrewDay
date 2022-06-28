@@ -23,7 +23,7 @@ const initialState = {
                 ]},
     locationTypes: [{Display: 'Bar', Reference: 'bar', active: true}, 
                     {Display: 'Brewery', Reference: 'brewery', active: true}, 
-                    {Display: 'Brew Pub', Reference: 'brewPub', active: true}, 
+                    {Display: 'Brewpub', Reference: 'brewPub', active: true}, 
                     {Display: 'Beer Store', Reference: 'beerStore', active: true}
                 ]
 };

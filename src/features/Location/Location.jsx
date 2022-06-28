@@ -1,13 +1,31 @@
 import React from 'react';
 import './Location.css';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 
 function Location(props) {
     const { location } = props;
 
+    const getType = () => {
+        const type = location.location.status;
+        if (type === 'Brewpub') {
+            return 'brewpub'
+        }
+    }
+
     return (
         <div className='location-card'>
-            <h4 className='locationName'>{location.location.name}</h4>
-            <p className='locationType'>{location.location.status}</p>
+            <h3 className='locationName'>{location.location.name}</h3>
+            <div className="location-details-box">
+                <div className="location-type-box">
+                    <FaMapMarkerAlt className={`icon ${getType()}`} />
+                    <p className='locationType'>{location.location.status}</p>
+                </div>
+                <div className="location-address-box">
+                    <p className='contact address'>{location.location.street}</p>
+                    <p className='contact address'>{location.location.city}, {location.location.state} {location.location.zip}</p>
+                    <p className='contact phone'>{location.location.phone}</p>
+                </div>
+            </div>
         </div>
     );
 }

@@ -14,7 +14,7 @@ function LocationsBox(props) {
     return (
         <div className="locations-box">
             <div className="list-info">
-                <h3 className='list-title'>Locations {pageName}.</h3>
+                <h2 className='list-title'>Locations {pageName}.</h2>
                 <p>{resultsNumber} location(s) found</p>
             </div>
             <FilterBox />
