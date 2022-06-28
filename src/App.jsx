@@ -3,7 +3,7 @@ import Navbar from './features/Navbar/Navbar';
 import NearMe from './pages/NearMe/NearMe';
 import Search from './pages/Search/Search';
 import Cities from './pages/Cities/Cities';
-import Planner from './pages/Planner/Planner';
+// import Planner from './pages/Planner/Planner';
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
 import './App.css';
@@ -64,7 +64,7 @@ function App() {
             <Route path='/' element={<NearMe />} />
             <Route path='/search' element={<Search />} />
             <Route path='/cities' element={<Cities />} />
-            <Route path='/planner' element={<Planner />} />
+            {/* <Route path='/planner' element={<Planner />} /> */}
           </Routes>
         </main>
         <footer className='App-footer'>

@@ -9,6 +9,14 @@ function Location(props) {
         const type = location.location.status;
         if (type === 'Brewpub') {
             return 'brewpub'
+        } else if (type === 'Brewery') {
+            return 'brewery'
+        } else if (type === 'Beer Bar') {
+            return 'bar'
+        } else if (type === 'Beer Store') {
+            return 'beerStore'
+        } else {
+            return
         }
     }
 

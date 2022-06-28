@@ -9,7 +9,7 @@ function Navbar() {
             <NavLink to='/' className='link'>Near Me</NavLink>
             <NavLink to='/search' className='link'>Search</NavLink>
             <NavLink to='/cities' className='link'>Popular Cities</NavLink>
-            <NavLink to='/planner' className='link'>Planner</NavLink>
+            {/* <NavLink to='/planner' className='link'>Planner</NavLink> */}
         </nav>
     )
 };
